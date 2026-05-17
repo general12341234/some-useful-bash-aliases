@@ -8,12 +8,13 @@ This README file is an exact copy of the bash_aliases file present in this repos
 ----
 
 
-# File name: .bash_aliases
-# Author: Amit Choudhary
-# Email: amitchoudhary0523 AT gmail DOT com
+\# File name: .bash_aliases  
+\# Author: Amit Choudhary  
+\# Email: amitchoudhary0523 AT gmail DOT com  
 
+<br>
 
-# Enable color support of ls and grep.
+\# Enable color support of ls and grep.
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || \
                             eval "$(dircolors -b)"
