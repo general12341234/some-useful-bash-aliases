@@ -14,7 +14,8 @@ This README file is an exact copy of the bash_aliases file present in this repos
 
 <br>
 
-\# Enable color support of ls and grep.
+````
+# Enable color support of ls and grep.
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || \
                             eval "$(dircolors -b)"
@@ -41,3 +42,4 @@ alias rm='rm -i'
 alias vi='vim'
 
 alias sudo='sudo '
+````
